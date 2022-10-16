@@ -1,6 +1,6 @@
-[return to maine page](../readme.md)
+[Return to maine page](../readme.md)
 
-# install mongodb
+# Install mongodb
 
 ```c
     download mongodb shell from there debian/ubuntu package
@@ -43,13 +43,13 @@
     now just run mongo to use mongodb
 ```
 
-# list all database
+# List all database
 
 ```c
     show dbs
 ```
 
-# create database or Select database
+# Create database or Select database
 
 ```c
     use db_name
@@ -57,26 +57,26 @@
     eg. use my_db
 ```
 
-# check current database
+# Check current database
 
 ```c
     db
 ```
 
-# details about current database
+# Details about current database
 
 ```c
     use db_name
     db.stats()
 ```
 
-# remove database
+# Remove database
 
 ```c
     db.dropDatabase()
 ```
 
-# create collection
+# Create collection
 
 ```c
     db.createCollection(name,options)
@@ -85,13 +85,13 @@
     {})
 ```
 
-# list all collections
+# List all collections
 
 ```c
     show collections
 ```
 
-# drop collections
+# Drop collections
 
 ```c
     db.collection_name.drop()
@@ -100,7 +100,7 @@
     db.user.drop()
 ```
 
-# insert into collection
+# Insert into collection
 
 ```c
     db.collection_name.insert({})
@@ -131,7 +131,7 @@
 
 ```
 
-# search from collection
+# Search from collection
 
 ```c
     db.collection_name.find({})
@@ -166,7 +166,7 @@
     },{"age":1,"_id":0})
 ```
 
-# update the document
+# Update the document
 
 ```c
     db.collectio_name.update({})
@@ -184,7 +184,7 @@
     save method will replace current document with new document syntax same as update
 ```
 
-# delete document
+# Delete document
 
 ```c
     db.collection_name.remove({})
@@ -196,7 +196,7 @@
 
 ```
 
-# limit the records
+# Limit the records
 
 ```c
     db.collection_name.find().limit(number)
@@ -206,7 +206,7 @@
     db.user.find().limit(3)
 ```
 
-# skip the record
+# Skip the record
 
 ```c
     db.collection_name.skip(number)
@@ -215,7 +215,7 @@
     db.user.find().skip(2)
 ```
 
-# sort the record
+# Sort the record
 
 ```c
     db.collection_name.sor()
@@ -228,7 +228,7 @@
     db.user.find().sort({"name":-1})
 ```
 
-# aggregation in mongo
+# Aggregation in mongo
 
 ```c
     db.collection_name.aggreagate({})

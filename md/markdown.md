@@ -1,47 +1,47 @@
-[return to maine page](../readme.md)
+[Return to maine page](../readme.md)
 
 <! markdown use .md for file>
 <!-- Headings -->
 
 # Used Of \#
 
-\# used for headings like ->
+\#Used for headings like ->
 
-# Heading 1
+#  [#] Heading 1
 
-## Heading 2
+## [##] Heading 2
 
-### Heading 3
+### [###] Heading 3
 
-#### Heading 4
+#### [####] Heading 4
 
-##### Heading 5
+##### [#####] Heading 5
 
-###### Heading 6
+###### [######] Heading 6
 
-## where single \# used for h1 and 6 \# used for h6
+## Where single \# used for h1 and 6 \# used for h6
 
 <!-- Italics -->
 
 # \* or \_ used for italic
 
-### _this text_ is italic
+### _This text_ is italic
 
-### _this text_ is italic
+### _This text_ is italic
 
 <!-- Strong -->
 
 # \*\* or \_\_ used for strong
 
-### **this text** is italic
+### **This text** is italic
 
-### **this text** is italic
+### **This text** is italic
 
 <!-- Strikethrough -->
 
-# \~~ is used for strikethrough
+# \~~ Is used for strikethrough
 
-# ~~this text~~ is strikethrough
+# ~~This text~~ is strikethrough
 
 <!-- Horizontal Rule -->
 
@@ -53,31 +53,34 @@
 
 <!-- Blockquote -->
 
-# \> used for blockquoute
+# \> Used for blockquoute
 
 > This is a blockquoute
 
 <!-- Links -->
 
-# [link name] and then (address "used for title") used for link
+# [Link name] and then (address "used for title") used for link
 
-[link](www.com, 'a link')
+```terminal
+()[]
+```
+[Link](www.com, 'a link')
 
 <!-- UL -->
 
-# use \* for ul
+# Use \* for ul
 
--   item 1
--   item 2
--   item 3
+-   Item 1
+-   Item 2
+-   Item 3
 
 <!-- OL -->
 
-# use . for OL
+# Use . for OL
 
-. item 1
-. item 2
-. item 3
+. Item 1
+. Item 2
+. Item 3
 
 <!-- inline Code Block -->
 
@@ -87,42 +90,42 @@
 
 <!-- Images -->
 
-# for image use \!\[title of image](location)
+# For image use \!\[title of image](location)
 
-![img](www.com)
+![Img](www.com)
 
 <!-- Github Markdown -->
 
 <!-- Code Block -->
-# for bash
+# For bash
 ```bash
-    npm install
+    Npm install
 
-    npm start
+    Npm start
 ```
 
-# for javascript
+# For javascript
 ```javascript
 function add(num1, num2) {
 	return num1 + num2;
 }
 ```
 
-# for python
+# For python
 ```python
 def add(num1, num2):
     return num1 + num2
 ```
 
 <!-- tables -->
-# for tables
+# For tables
 | NAME     | Email          |
 | -------- | -------------  |
 | John Doe | john@gmail.com |
 | Jane Doe | jane@gmail.com |
 
 <!-- task lists -->
-# * [] for taks list
+# * [ ] For taks list
 * [x] Task 1
 * [x] Task 2
 * [ ] Task 3

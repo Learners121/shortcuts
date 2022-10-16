@@ -1,6 +1,6 @@
-[return to maine page](../readme.md)
+[Return to maine page](../readme.md)
 
-# install postgres
+# Install postgres
 
 ```
 # Create the file repository configuration:
@@ -17,69 +17,69 @@
     sudo apt-get -y install postgresql
 ```
 
-# switch to postgres
+# Switch to postgres
 
 ```
     sudo -i -u postgres (then use)
     psql -U postgres -W
 ```
 
-# list of all databases
+# List of all databases
 
 ```
     \l
 ```
 
-# select the database
+# Select the database
 
 ```
     \c database name
 ```
 
-# list all the tables
+# List all the tables
 
 ```
     \dt
 ```
 
-# change the user password
+# Change the user password
 
 ```
     ALTER USER postgres PASSWORD 'Password'
 ```
 
-# create the database
+# Create the database
 
 ```
     create database dbname;
 ```
 
-# add data to database
+# Add data to database
 
 ```
     pg_restore --dbname=database_name --verbose database_file
 ```
 
-# describe table
+# Describe table
 
 ```
     \d tablesName
 ```
 
-# rename table
+# Rename table
 
 ```
     ALTER TABLE table_name RENAME TO new_name
 ```
 
-# add column in table
+# Add column in table
 
 ```
     ALTER TABLE table_name
     ADD COLUMN column_name data_type
 ```
 
-# select statement
+# Select statement
 
 it will return the data from the database
 
@@ -89,10 +89,10 @@ it will return the data from the database
    SELECT first_name FROM customer;
 ```
 
-# concat two columns with alias
+# Concat two columns with alias
 
 ```
    SELECT first_name || ' ' || last_name AS full_name FROM customer;
 ```
 
-# sort data
+# Sort data

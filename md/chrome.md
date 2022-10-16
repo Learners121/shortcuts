@@ -1,72 +1,72 @@
-[return to maine page](../readme.md)
+[Return to maine page](../readme.md)
 
-# open all recently closed tabs
+# Open all recently closed tabs
 
 ```bash
     ctrl + shift + t
 ```
 
-# open new tab
+# Open new tab
 
 ```bash
     ctrl + t
 ```
 
-# open new window
+# Open new window
 
 ```bash
     ctrl + n
 ```
 
-# open new window in incognito mode
+# Open new window in incognito mode
 
 ```bash
     ctrl + shift + n
 ```
 
-# open developer tools
+# Open developer tools
 
 ```bash
     ctrl + shift + i
 ```
 
-# bookmark any tab
+# Bookmark any tab
 
 ```bash
     ctrl + d
 ```
 
-# go to url bar
+# Go to url bar
 
 ```bash
     ctrl + l
 ```
 
-# go to search bar
+# Go to search bar
 
 ```bash
     /
 ```
 
-# close current tab
+# Close current tab
 
 ```bash
     ctrl + w
 ```
 
-# switch between tabs
+# Switch between tabs
 
 ```bash
     ctrl + (pg up or pg dn)
 ```
 
-# go to previous or forwarded page
+# Go to previous or forwarded page
 
 ```
     alt + (left arrow or right arrow)
 ```
 
-# open link in new tab
+# Open link in new tab
 
 ```
     ctrl + left click

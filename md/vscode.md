@@ -1,98 +1,98 @@
-[return to maine page](../readme.md)
+[Return to maine page](../readme.md)
 
-# open markdown preview
+# Open markdown preview
 
 ```bash
     ctrl + k + v
 ```
 
-# open Explorer in vscode
+# Open Explorer in vscode
 
 ```bash
     ctrl + shift + e
 ```
 
-# open extension in vscode
+# Open extension in vscode
 
 ```bash
     ctrl + shift + x
 ```
 
-# complete search
+# Complete search
 
 ```bash
     ctrl + shift + f
 ```
 
-# hide side bar
+# Hide side bar
 
 ```bash
     ctrl + b
 ```
 
-# remove complete line in vscode
+# Remove complete line in vscode
 
 ```bash
     ctrl + shift + k
 ```
 
-# open in live server
+# Open in live server
 
 ```bash
     alt + l + alt + o
 ```
 
-# stop live server
+# Stop live server
 
 ```bash
     alt + l + alt + c
 ```
 
-# quit tab
+# Quit tab
 
 ```bash
     ctrl + w OR
     alt + f4
 ```
 
-# close all tabs
+# Close all tabs
 
 ```bash
     ctrl + k + ctrl + w
 ```
 
-# go to end of the line
+# Go to end of the line
 
 ```bash
     end
 ```
 
-# go to beginning of the line
+# Go to beginning of the line
 
 ```bash
     home
 ```
 
-# go to very beginning of the editor line
+# Go to very beginning of the editor line
 
 ```bash
     ctrl + home
 ```
 
-# go to very ending of the editor line
+# Go to very ending of the editor line
 
 ```bash
     ctrl + end
 ```
 
-# switching between tabs
+# Switching between tabs
 
 ```bash
     ctrl + pgup or
     ctrl + pgdn
 ```
 
-# open closed tab
+# Open closed tab
 
 ```bash
     ctrl + shift + t

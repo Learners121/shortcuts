@@ -1,43 +1,43 @@
-[return to maine page](../readme.md)
+[Return to maine page](../readme.md)
 
-# list all the files and folders in current directory
+# List all the files and folders in current directory
 
 ```bash
     ls
 ```
 
-# name of current directorye
+# Name of current directorye
 
 ```bash
  pwd
 ```
 
-# remove file
+# Remove file
 
 ```bash
     rm filename or
     rm -r name (for removing folder)
 ```
 
-# create folder
+# Create folder
 
 ```bash
     mkdir
 ```
 
-# move file
+# Move file
 
 ```bash
     mv filename destination-folder
 ```
 
-# install downloaded software
+# Install downloaded software
 
 ```bash
     sudo apt-get install ./name
 ```
 
-# find files from all directory
+# Find files from all directory
 
 ```bash
 find -name filename or
@@ -86,7 +86,7 @@ That should get rid of everything. If you installed a third-party PPA in order t
 
 ```
 
-# create custom command
+# Create custom command
 
 ```bash
     alias 'command_name' = "your command"
@@ -94,7 +94,7 @@ That should get rid of everything. If you installed a third-party PPA in order t
     alias folders = "mkdir new{01..50}"
 ```
 
-# get process id on current port and kill it
+# Get process id on current port and kill it
 
 ```bash
     lsof -i -P -n | grep port_number
@@ -102,20 +102,20 @@ That should get rid of everything. If you installed a third-party PPA in order t
 
 ```
 
-# force close vscode
+# Force close vscode
 
 ```bash
     killall code
 ```
 
-# switching tab
+# Switching tab
 
 ```
     ctrl + alt + tab or
     alt + tab
 ```
 
-# switch to desktop
+# Switch to desktop
 
 ```
     ctrl + alt + (up or down arrow)
