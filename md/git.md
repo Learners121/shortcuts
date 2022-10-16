@@ -53,7 +53,7 @@ git commit
 git push origin 'name'
 ```
 
-# not able to push due to ref erro
+# not able to push due to ref error
 
 ```git
 git show-ref
@@ -97,3 +97,13 @@ git remote rm origin
 ```git
     git config --get remote.origin.url
 ```
+# merge current branch data into another branch
+```git
+    git merge [branch name]
+```
+# remove file from staging area
+```git
+    git restore --staged [filename]
+```
+
+
