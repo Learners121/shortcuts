@@ -120,3 +120,11 @@ That should get rid of everything. If you installed a third-party PPA in order t
 ```
     ctrl + alt + (up or down arrow)
 ```
+# check inner data of any file
+```bash
+    cat (filename)
+```
+# check list of all commands
+```bash
+    compgen -c
+```
