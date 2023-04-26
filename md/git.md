@@ -105,5 +105,23 @@ git remote rm origin
 ```git
     git restore --staged [filename]
 ```
-
-
+# read only upper 10 lines of data from file
+```git
+    head [file name with extension]
+```
+# read only lower 10 lines of data from file
+```git
+    tail [file name with extension]
+```
+# read specific lines of data
+```git
+    head -n [number of lines data you want to read] filename with extension
+```
+# export one file data into another file
+```git
+    cat [filename with extension] > [new file name with extension]
+```
+# rebasing (alter commits) as moved to the new branch
+```git
+    git rebase -i [branch name]
+```
