@@ -6,7 +6,7 @@
     ls
 ```
 
-# name of current directorye
+# name of current directory
 
 ```bash
  pwd
@@ -22,9 +22,12 @@
 # create folder
 
 ```bash
-    mkdir
+    mkdir (folder name)
 ```
-
+# create file
+```bash
+    touch (file name)
+```
 # move file
 
 ```bash
